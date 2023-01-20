@@ -115,3 +115,27 @@ img {
   text-align: center;
   margin-top: 1rem;
 }
+
+@media only screen and (max-width: 480px) {
+  nav {
+    flex-direction: flex;
+  }
+  nav a {
+    padding: 100%;
+    text-align: center;
+    list-style: none;
+    color: #ffffff;
+  }
+
+  body {
+    flex-direction: flex;
+  }
+
+  .showcase{
+    flex: auto;
+  }
+
+  .showcase form{
+    flex: auto;
+  }
+}
